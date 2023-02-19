@@ -20,6 +20,7 @@
     	 Both parameters are used in the /utils/BaseTest.class on the <setup> method -->
     	
     	<parameter name = "browser" value = "chrome" />
+    	
     	<parameter name = "appUrl" value = "https://keybooks.ro" />
     	
     	

@@ -3,7 +3,6 @@
 .settings/
 drivers/
 hs_err_*
-target/
 test-output/
 .DS_Store
 src/.DS_Store

@@ -12,7 +12,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import com.google.common.io.Files;
-
+/**
+ * The role of this class is to instantiate the Driver object for the browser and setup any preconditions for our tests, as well as
+ * the tear down part where the driver object is closed.
+ * It also takes care of automatically take a screenshot using TestNG listeners whenever a @Test method will finish the execution 
+ * with status FAILED.
+ * 
+ */
 
 public class BaseTest extends Driver {
 

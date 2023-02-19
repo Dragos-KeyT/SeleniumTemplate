@@ -11,7 +11,7 @@ import pages.NavMenuPage;
 import utils.BaseTest;
 import utils.TestNgListener;
 
-//@Listeners(TestNgListener.class)
+@Listeners(TestNgListener.class)
 public class LoginTest extends BaseTest {
 	
 	@Parameters({"user", "pass"})
