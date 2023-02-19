@@ -2,10 +2,10 @@
 <suite name="Suite1" parallel="tests" thread-count="2">
   
     <parameter name = "appUrl" value = "https://keybooks.ro" />
-    	<parameter name ="user" value="TestUser" />
-    	<parameter name ="pass" value="12345@67890" />
-    	<parameter name ="invuser" value="12345@67890" />
-    	<parameter name ="invpass" value="12345@67890" />
+    	<parameter name ="user" value="value for user" />
+    	<parameter name ="pass" value="value for pass" />
+    	<parameter name ="invuser" value="value for user" />
+    	<parameter name ="invpass" value="value for user" />
 
 
     <test name="Chrome" >
